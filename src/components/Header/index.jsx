@@ -5,14 +5,14 @@ import './header.scss';
 
 const links = ['Home', 'Resume', 'Portfolio', 'Media'];
 
-function Header() {
+function Header({updateContent}) {
   return (
     <div className='header'>
       <Name name='Stephanie Nathai-Cueter'/>
       <hr />
-      <Navigation links={links}/>
+      <Navigation links={links} updateContent={updateContent}/>
     </div>
-  )
+  );
 }
 
 export default Header;

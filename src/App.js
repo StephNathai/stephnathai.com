@@ -4,14 +4,26 @@ import Content from './components/Content';
 import Footer from './components/Footer';
 import './App.scss';
 
-function App() {
-  return (
-    [
-      <Header/>,
-      <Content/>,
-      <Footer/>
-    ]
-  )
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.updateContent = this.updateContent.bind(this);
+    this.state = {page: 'home'};
+  }
+
+  updateContent(pageType) {
+    this.setState({page: pageType});
+  }
+
+  render() {
+    return(
+      [
+        <Header updateContent={this.updateContent} />,
+        <Content page={this.state.page} />,
+        <Footer />
+      ]
+    );
+  }
 }
 
 export default App;

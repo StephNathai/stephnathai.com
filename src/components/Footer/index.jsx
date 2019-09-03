@@ -13,7 +13,7 @@ function Footer() {
     <div className='footer'>
       <Navigation links={links}/>
     </div>
-  )
+  );
 }
 
 export default Footer;
