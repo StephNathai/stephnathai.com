@@ -18,9 +18,9 @@ class App extends React.Component {
   render() {
     return(
       [
-        <Header updateContent={this.updateContent} />,
-        <Content page={this.state.page} />,
-        <Footer />
+        <Header updateContent={this.updateContent} key='header' />,
+        <Content page={this.state.page} key='content' />,
+        <Footer key='footer' />
       ]
     );
   }

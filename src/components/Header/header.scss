@@ -3,22 +3,44 @@
 .header {
   .header-links-container {
     display: flex;
+    justify-content: space-between;
     list-style-type: none;
-    margin: 20px;
+    margin: 20px 0;
   }
 
   .header-links {
     width: 25%;
     text-align: center;
-
-    a {
-      color: black;
-    }
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: initial;
+    margin-bottom: 20px;
   }
 
   .header-name {
     text-align: center;
     font-family: 'Lobster', cursive;
-    font-size: 40px;
+    font-size: 30px;
+  }
+
+  hr {
+    border-color: #d3d6d2;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .header-name {
+      font-size: 40px;
+    }
+
+    .header-links-container {
+      margin: 20px 0px;
+    }
+
+    .header-links {
+      font-size: 18px;
+    }
   }
 }
