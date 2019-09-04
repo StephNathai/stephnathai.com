@@ -10,7 +10,8 @@ const portfolioObj = [
     className: "card",
     key: "trainTrack",
     title: "trainTrack",
-    compilation: "Node.js, Socket.io, Express, JavaScript, MTA API, and Google Maps API"
+    compilation: "Node.js, Socket.io, Express, JavaScript, MTA API, and Google Maps API",
+    descriptionHeader: true
   },
 ];
 

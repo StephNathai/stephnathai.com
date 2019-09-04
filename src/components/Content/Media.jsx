@@ -9,7 +9,8 @@ const mediaObj = [
     alt: "trainTrack",
     href: "http://web.mta.info/apps",
     className: "card",
-    key: "trainTrack"
+    key: "trainTrack",
+    descriptionHeader: false
   },
   {
     description: "As mentioned in this article, GroupAway won the IBM Challenge for best Bluemix Creation at the Tnooz Hackathon.",
@@ -17,7 +18,8 @@ const mediaObj = [
     alt: "Group Away",
     href: "http://www.tnooz.com/article/small-teams-step-up-and-hack-new-york-city-travel",
     className: "card",
-    key: "groupAway"
+    key: "groupAway",
+    descriptionHeader: false
   }
 ];
 
