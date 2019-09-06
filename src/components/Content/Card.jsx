@@ -64,7 +64,14 @@ function Card({cardContent}) {
           <span>{cardContent.media}</span>
         </div>
       }
-      <ImageContainer cardContent={cardContent}/>
+      {cardContent.imgSrcArray &&
+        <ImageContainer cardContent={cardContent}/>
+      }
+      {cardContent.template &&
+        <div className="template">
+          {<cardContent.template/>}
+        </div>
+      }
     </div>
   );
 }

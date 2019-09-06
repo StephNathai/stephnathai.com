@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import Monkey from './Monkey';
 import './portfolio.scss';
 
 const portfolioObj = [
@@ -28,6 +29,13 @@ const portfolioObj = [
     compilation: "Ruby, Ruby on Rails, HTML, CSS, JavaScript, and jQuery",
     imgSrcArray: ["licwiki.png"],
     alt: "LIC wiki",
+  },
+  {
+    title: "SVG Fun",
+    description: "Just a few little homemade SVG's",
+    compilation: "SVG, jQuery, CSS, and HTML",
+    template: Monkey,
+    alt: "homemade SVG's",
   },
 ];
 
