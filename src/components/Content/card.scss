@@ -2,19 +2,79 @@
   border: 1px solid black;
   margin-bottom: 20px;
   border-radius: 10px;
-  cursor: pointer;
   width: 100%;
+  font-size: 16px;
+  overflow-x: hidden;
 
   img {
     width: 100%;
   }
 
-  p {
-    font-size: 14px;
+  button {
+    padding: 0;
+  }
+
+  .item {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  .label {
     font-weight: bold;
+    margin-right: 5px;
+  }
+
+  .image-container {
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .image-wrapper {
+    position: relative;
+  }
+
+  .left-arrow,
+  .right-arrow {
+    position: absolute;
+    height: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .right-arrow {
+    top: 0;
+    right: 0;
+  }
+
+  .arrow-icon {
+    width: 50px;
+    height: 100%;
+  }
+
+  .left-arrow-mask,
+  .right-arrow-mask {
+    position: absolute;
+    background: grey;
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+  }
+
+  .left-arrow-mask {
+    top: 0;
+    left: 0;
+  }
+
+  .right-arrow-mask {
+    top: 0;
+    right: 0;
   }
 
   @media only screen and (min-width: 768px) {
-    width: 49%;
+    width: 48.5%;
+    min-width: 48.5%;
+    flex-wrap: wrap;
   }
 }

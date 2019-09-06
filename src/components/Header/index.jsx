@@ -3,7 +3,7 @@ import Name from './Name';
 import Navigation from './Navigation';
 import './header.scss';
 
-const links = ['Home', 'Resume', 'Portfolio', 'Media'];
+const links = ['Home', 'Resume', 'Portfolio'];
 
 function Header({updateContent}) {
   return (

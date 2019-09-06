@@ -13,13 +13,10 @@ function LeftContent() {
 function RightContent() {
   return(
     <div className="right-content">
-      <img src={require('../../assets/main.jpg')} alt='Steph' />
+      <img className="home-image" src={require('../../assets/main.jpg')} alt='Steph' />
     </div>
   );
 }
-
-
-
 
 function Home() {
   return(

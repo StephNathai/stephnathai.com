@@ -2,7 +2,6 @@ import React from 'react';
 import Home from './Home';
 import Resume from './Resume';
 import Portfolio from './Portfolio';
-import Media from './Media';
 
 function Content({page}) {
   let pageContent;
@@ -19,10 +18,6 @@ function Content({page}) {
 
     case 'portfolio':
       pageContent = <Portfolio />;
-      break;
-
-    case 'media':
-      pageContent = <Media />;
       break;
   }
 

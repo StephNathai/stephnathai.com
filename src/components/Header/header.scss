@@ -3,20 +3,19 @@
 .header {
   .header-links-container {
     display: flex;
-    justify-content: space-between;
-    list-style-type: none;
+    justify-content: space-around;
     margin: 20px 0;
   }
 
   .header-links {
-    width: 25%;
+    height: 35px;
     text-align: center;
     border: none;
     font-size: 16px;
     text-transform: uppercase;
     text-decoration: underline;
     cursor: pointer;
-    background-color: initial;
+    padding: 0 20px;
   }
 
   .header-name {
