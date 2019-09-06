@@ -16,7 +16,7 @@
     text-decoration: underline;
     cursor: pointer;
     padding: 0 20px;
-    width: 30%;
+    background: none;
   }
 
   .header-name {
@@ -40,6 +40,7 @@
 
     .header-links {
       font-size: 18px;
+      width: 30%;
     }
   }
 }

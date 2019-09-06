@@ -32,10 +32,10 @@ const portfolioObj = [
   },
   {
     title: "SVG Fun",
-    description: "Just a few little homemade SVG's",
+    description: "Just a quick little homemade SVG",
     compilation: "SVG, jQuery, CSS, and HTML",
     template: Monkey,
-    alt: "homemade SVG's",
+    alt: "homemade SVG",
   },
 ];
 

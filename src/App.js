@@ -8,8 +8,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.updateContent = this.updateContent.bind(this);
-    // this.state = {page: 'home'};
-    this.state = {page: 'portfolio'};
+    this.state = {page: 'home'};
   }
 
   updateContent(pageType) {
