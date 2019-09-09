@@ -3,8 +3,8 @@ import Navigation from './Navigation';
 import './footer.scss';
 
 const links = {
-  'linkedin': 'www.linkedin.com',
-  'github': 'www.github.com',
+  'linkedin': 'https://linkedin.com/in/stephnathai',
+  'github': 'https://github.com/StephNathai',
   'email': 'mailto:contact@stephnathai.com'
 };
 
